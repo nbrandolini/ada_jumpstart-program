@@ -44,11 +44,14 @@ cake = false
 if cookies == true
    print "OMG COOKIEZ"
 end
+Answer: OMG COOKIEZ
+
 if cake == true
    print "OMG CAKE!"
 else
    print "WHATEVZ DESSERTZ."
 end
+Answer: WHATEVZ DESSERTZ
 
 # problem 2
 person_age = 55
@@ -61,6 +64,7 @@ elsif ada_age < person_age
 else
    print "They’re the same!"
 end
+Answer: Ada is younger
 
 # problem 3
 pet = "cat"
@@ -73,12 +77,14 @@ elsif pet == "dog"
 else
    print "some other sound"
 end
+Answer: here kitty
 
 if food == "broccoli"
    print "eh."
 elsif food == "ice cream"
    print "yum"
 end
+Answer: yum
 
 # problem 4
 x = 7
@@ -93,6 +99,7 @@ if x >= y
 else
    print "y is bigger"
 end
+Answer: x = y
 
 # problem 5
 x = 7
@@ -107,6 +114,7 @@ if x > y || x == y
 else
    print "y is bigger"
 end
+Answer: x = y
 
 # problem 6
 x = 7
@@ -117,7 +125,9 @@ if x >= y
 else
    print "y is bigger"
 end
+Answer: x is bigger
 
 if x == y
    print "x = y"
 end
+Answer: x = y
