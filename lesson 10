@@ -8,6 +8,20 @@ Use your new knowledge of conditionals to recreate this flow control diagram usi
 Assume that the x and y variable data comes from user input prior to the conditional execution.
 flow control assignment
 
+puts "Please enter x:"
+x= gets.chomp
+puts "Please enter y:"
+y = gets.chomp
+
+if x == y
+  print "equal"
+  elsif x > y 
+  print "greater"
+  elsif x < y 
+  print "less"
+  
+end
+
 Now we will go the other way! Using the code below create the flow control diagram that would represent it.
 
 number_of_sides = gets.chomp
