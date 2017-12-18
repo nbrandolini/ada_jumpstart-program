@@ -1,0 +1,152 @@
+Loops Worksheet
+Read the code in each section, then write exactly what the code prints out. Use a loop table to help you track each variable for each iteration.
+
+Each problem stands alone. Variables from previous problems do not exist.
+
+Example:
+
+x = 5
+y = 6
+print(x+y) #=> 11
+
+Problem Set
+
+2.times do
+  puts "dance"
+end
+Answer : dance
+         dance
+
+10.times do |i|
+  puts i
+end
+Answer: 0
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        
+       
+
+3.times do
+  puts "coding!"
+end
+puts "fun!"
+Answer: coding!
+        coding!
+        coding!
+        fun!
+
+5.times do |x|
+  puts "#{x} chicken(s)"
+end
+Answer: 0 chicken(s)
+        1 chicken(s)
+        2 chicken(s)
+        3 chicken(s)
+        4 chicken(s)
+
+10.times do |i|
+  puts i * i
+end
+Answer: 0
+        1
+        4
+        9
+        16
+        25
+        36
+        49
+        64
+        81
+
+
+(1..5).each do
+  puts "hello!"
+end
+Answer: hello!
+        hello!
+        hello!
+        hello!
+        hello!
+
+(1..3).each do |i|
+  puts "#{i} animals(s)"
+end
+Answer: 1 animal(s)
+        2 animal(s)
+        3 animal(s)
+        
+(1..3).each do |i|
+  puts i * i
+end
+Answer: 1
+        4
+        9
+
+
+total = 0
+(1..3).each do |i|
+  total = total + i
+end
+puts total
+Answer: 
+
+
+(1..10).each do |x|
+  if x == 5
+    puts "You got a winner!"
+  end
+end
+i = 0
+
+while i < 3
+  puts "hi"
+  i = i + 1
+end
+i = 0
+
+while i < 3
+  puts "hi"
+  i = i + 1
+end
+
+puts "bye"
+i = 0
+
+while i < 3
+  i += 1
+  puts i
+end
+x = 5
+i = 0
+
+while i < 3
+  x = x + 1
+  i = i + 1
+end
+
+puts x
+i = 3
+
+while i > 0
+  puts "ada!"
+  i = i - 1
+end
+i = 1
+
+while i
+  puts "a while"
+end
+i = 1
+
+while i < 100
+  puts "o hai"
+  i = i * 100
+end
