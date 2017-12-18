@@ -96,7 +96,8 @@ total = 0
   total = total + i
 end
 puts total
-Answer: 
+Answer: 6
+(for i = 1, total is 0; for i = 2, total become 1, and for i = 3, total become 3) the outcome asks for total which is total + i so the outcome becomes 3 + 3 = 6
 
 
 (1..10).each do |x|
@@ -104,12 +105,18 @@ Answer:
     puts "You got a winner!"
   end
 end
+Answer: You got a winner! for x == 5
+
 i = 0
 
 while i < 3
   puts "hi"
   i = i + 1
 end
+Answer: hi
+        hi
+        hi
+
 i = 0
 
 while i < 3
@@ -118,12 +125,21 @@ while i < 3
 end
 
 puts "bye"
+Answer: hi
+        hi
+        hi
+        bye
+
 i = 0
 
 while i < 3
   i += 1
   puts i
 end
+Answer: 1
+        2
+        3
+
 x = 5
 i = 0
 
@@ -133,20 +149,30 @@ while i < 3
 end
 
 puts x
+Answer : 8 
+
 i = 3
 
 while i > 0
   puts "ada!"
   i = i - 1
 end
+Answer: ada!
+        ada!
+        ada!
+
 i = 1
 
 while i
   puts "a while"
 end
+Answer: puts a while forever because it has no stopping point. It's an infinite loop.
+
 i = 1
 
 while i < 100
   puts "o hai"
   i = i * 100
 end
+
+Answer: o hai
